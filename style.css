@@ -208,7 +208,10 @@
     transition: 0.18s;
 }
 #House:hover{
-    background-color: rgba(90,90,90)
+    background-color: rgb(90,90,90)
+}
+#House:active{
+    background-color: rgb(70,70,70);
 }
 #House-logo{
     padding-left: 13px;
@@ -235,6 +238,9 @@
 #Shorts:hover{
     background-color: rgba(90,90,90)
 }
+#Shorts:active{
+    background-color: rgb(70,70,70);
+}
 #Shorts-logo{
     width: 20px;
     padding-left: 4px;
@@ -257,6 +263,9 @@
 }
 #Subscription:hover{
     background-color: rgba(90,90,90)
+}
+#Subscription:active{
+    background-color: rgb(70,70,70);
 }
 #Subscription-logo{
     width: 20px;
@@ -281,6 +290,9 @@
 }
 #You:hover{
     background-color: rgba(90,90,90)
+}
+#You:active{
+    background-color: rgb(70,70,70);
 }
 #You-logo{
     width:  20px;

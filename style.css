@@ -1,0 +1,404 @@
+.You-tube-body-page{
+    background-color: rgb(20,20,20);
+    padding-top: 80px;
+    padding-left: 100px;
+    margin: 0px;
+}
+.Nav-bar{ 
+    background-color: rgb(20,20,20);
+    display: flex;;
+    flex-direction: row;
+    height: 80px;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+}
+.First-segment{
+    display: flex;
+    width: 182px;
+    align-items: center;
+}
+#Line-bar{
+    color: white;
+    font-size: 22px;
+    padding: 11px;
+    padding-left: 12px;
+    border: none;
+    border-radius: 50%;
+    padding-right: 13px;
+    margin-right: 10px;
+    margin-left: 22px;
+    cursor: pointer;
+    transition: 0.2x;
+}
+#Line-bar:hover{
+    background-color: rgb(40,40,40)
+}
+#logo{
+    width: 105px;
+    cursor: pointer;
+}
+.Second-segment{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+#Search-bar{
+    background-color: rgb(30,30,30);
+    border: solid;
+    border-width: 1px;
+    border-color:rgb(60,60,60) ;
+    border-top-left-radius: 21px;
+    border-bottom-left-radius: 21px;
+    padding-left: 17px;
+    margin: 0px;
+    color: white;
+    font-family: Roboto;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+}
+.Search-button{
+    position: relative;
+}
+.Search-button:hover .Tooltip{
+    opacity: 1;
+}
+#Search-logo{
+    background-color: rgb(30,30,30);
+    font-size: 24px;
+    color: rgb(200,200,200);
+    margin: 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(60,60,60);
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-top-right-radius: 21px;
+    border-bottom-right-radius: 21px;
+    cursor: pointer;
+}
+.Tooltip{
+    position: absolute;
+    bottom: -40px;
+    display: flex;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 4px;
+    background-color: rgb(60,60,60);
+    color: white;
+    font-family: Roboto;
+    font-size: 12px;
+    opacity: 0;
+    transition: 0.21s;
+    white-space: nowrap;
+    pointer-events: none;
+}
+.Voice-button{
+    position: relative;
+}
+.Voice-button:hover .Tooltip{
+    opacity: 1;
+}
+#Voice-logo{
+    background-color: rgb(30,30,30);
+    font-size: 18px;
+    color: rgb(200,200,200);
+    margin: 0px;
+    margin-left: 18px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(60,60,60);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.18s;
+}
+#Voice-logo:hover{
+    background-color: rgb(40,40,40);
+}
+.Third-segment{
+    width: 165px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+#Video-tag{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: 0.2s;
+}
+.Video-button{
+    position: relative;
+    cursor: pointer;
+}
+.Video-button:hover .Tooltip{
+        opacity: 1;
+}
+#Video-tag:hover{
+    background-color: rgb(40,40,40);;
+}
+.Notification-button{
+    position: relative;
+}
+.Notification-button:hover .Tooltip{
+    opacity: 1;
+}
+#Notification-bell{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+#Notification-bell:hover{
+    background-color: rgb(40,40,40);;
+}
+#Account{
+    background-color: rgb(0, 153, 255);
+    font-family: Roboto;
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 11px;
+    padding-left: 11px;
+    margin-right: 20px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.You-tube-page{
+    display: grid;
+    grid-template-columns:1fr 20px;
+}
+.Home-bar{
+    display: block;
+    background-color: rgb(20,20,20);
+    position: fixed;
+    top: 80px;
+    left: 0px;
+    width: 75px;
+    bottom: 0px;
+    z-index: 1;
+} 
+#House{
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+#House:hover{
+    background-color: rgba(90,90,90)
+}
+#House-logo{
+    padding-left: 13px;
+    font-size: 20px;
+    color: white;
+}
+#House-text{
+    font-size: 10px;
+    color: white;
+    font-family: Roboto;
+    padding-left: 10px;
+    margin-top: 2px;
+}
+#Shorts{
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 25px;
+    padding-left: 24px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+#Shorts:hover{
+    background-color: rgba(90,90,90)
+}
+#Shorts-logo{
+    width: 20px;
+    padding-left: 4px;
+}
+#Shorts-text{
+    font-size: 10px;
+    color: white;
+    font-family: Roboto;
+    margin-top: 2px;
+}
+#Subscription{
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 8px;
+    padding-left: 5px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+#Subscription:hover{
+    background-color: rgba(90,90,90)
+}
+#Subscription-logo{
+    width: 20px;
+    padding-left: 24px;
+}
+#Subscription-text{
+    font-size: 10px;
+    color: white;
+    font-family: Roboto;
+    margin-top: 2px;
+    padding-left: 5px;
+}
+#You{
+    padding-top: 20px;
+    padding-bottom: 13px;
+    padding-right: 20px;
+    padding-left: 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+#You:hover{
+    background-color: rgba(90,90,90)
+}
+#You-logo{
+    width:  20px;
+    padding-right: 10px;
+}
+#You-text{
+    font-size: 10px;
+    color: white;
+    font-family: Roboto;
+    margin-top: 2px;
+}
+.Video-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 25px;
+    column-gap: 15px;
+}
+@media(max-width: 600px){
+    .Video-page{
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+    }
+    .Thumbnill{
+        grid-template-rows: 0.8fr 120px;
+    }
+}
+@media((min-width: 601px) and (max-width:900px)){
+    .Video-page{
+        grid-template-columns: 1fr 1fr;
+        row-gap: 25px;
+    }
+    .Thumbnill{
+        grid-template-rows: 0.9fr 120px;
+    }
+}
+@media((min-width: 901px) and (max-width:1150px)){
+    .Video-page{
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 25px;
+    }
+    .Thumbnill{
+        grid-template-rows: 1fr 120px;
+    }
+}
+@media((min-width: 1151px) and (max-width:1500px)){
+    .Video-page{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 25px;
+    }
+    .Thumbnill{
+        grid-template-rows: 1.1fr 120px;
+    }
+}
+.Thumbnill{
+    display: grid;
+    height: 350px;
+    grid-template-rows: 1.1fr 120px;
+    row-gap: 18px;
+}
+.Thumbnill:hover .Picture{
+        border-radius: 0px;
+}
+.Picture-container{
+    position: relative;
+}
+.Picture{
+    width: 100%;
+    height: 100%; 
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.18s;
+}
+.Timer{
+    display: flex;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: black;
+    color: white;
+    font-family: Roboto;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 175px;
+    right: 10px;
+}
+.Bottom-part{
+    display: grid;
+    grid-template-columns: 58px 1fr;
+}
+.Profile-pic{
+    height : 40px;
+    width: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Text{
+    font-family: Roboto;
+}
+.Top-text{
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    margin-top: 0px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.Middle-text{
+    font-size: 15px;
+    color: rgba(241, 238, 238, 0.589);
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.Bottom-text{
+    font-size: 15px;
+    color: rgba(241, 238, 238, 0.589);
+    margin-top: 0px;
+}
